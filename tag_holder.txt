@@ -1,0 +1,13 @@
+Se si usa il tag Holder (necessario per usare resine non originali, o in 
+alternativa è necessaria la cartuccia Custom):
+
+- NON cambiare il campo "Resin Name" nel 
+  profilo, altrimenti non viene avviata la stampa. 
+  Il campo Resin Name va lasciato uguale a "normal" (diversamente da quanto 
+  indicato nelle istruzioni di Sisma). Nel caso in cui si usi invece la cartuccia Custom, il
+  campo Resin Name va impostato uguale a "Custom".
+
+- Non è necessario svuotare la vasca prima di spegnere la stampante. Lasciando il materiale
+  avanzato è meno facile che si vengano a creare dei veli solidi sul fondo della vasca.
+  Viceversa pulendo ogni volta la vasca si rischia di rovinarla più facilmente. E' sufficiente
+  verificare che non ci siano detriti solidi.
