@@ -29,7 +29,7 @@ However, one must consider that it will probably need some (i.e. tens) of tests 
 - to avoid confusion, one may start with a big light-off-delay (i.e. $3:4s$) and reduce it only once all the other parameters has been tuned properly.
 - the raft should be able to stick to the SBP but not too much.
 - since one should not place object directly on the build plate, it's not meaningful to verify whether they stick too much or not.
-- the light should cure just the current layer, and not the previous one. To check this one may print a cube (heigth $\simeq 20mm$ with a small horizontal hole (radius $\simeq 4mm$) and lower the exposure time and/or the picture greyscale.
+- the light should cure just the current layer, and not the previous one. To check this one may print a cube (heigth $\simeq 20mm$ with a small horizontal hole (radius $\simeq 4mm$) or the [snowflake](./snowflake.stl) (scale down to 50%) and lower the exposure time and/or the picture greyscale.
 - since the $100\mu m$ profile is harder to calibrate, you may first calibrate the $50\mu m$ one (easier), and then give it to an LLM to get an initial guess for the $100\mu m$ one.
 - since the $100um$ is faster (one properly tuned) and because it's easier to highlight problems with the light-off-delay, you may prefer to tune this last parameter first with the $100\mu m$, and then use an initial guess from an LLM to adjust the $50\mu m$ one.
 
