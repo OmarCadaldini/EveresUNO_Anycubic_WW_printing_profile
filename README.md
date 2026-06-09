@@ -7,14 +7,21 @@ Everes UNO's DLP projector is way more powerful (and hence faster) with respect 
 Moreover, Everes printers are built to print only at pre-fixed layer thichnesses (like $50\mu m$, $100\mu m$, ...) and so one must be able to calibrate every material keeping in mind that one must choose an allowed value for the layer thickness. For each material, both the $50\mu m$ and the $100\mu m$ are available.
 
 # Materials and profiles
-In _/profile_ one can find the profiles for the following materials (link Amazon):
+In the [__/profile__](./profile) folder one can find the profiles for the following water-washable standard resins:
 - [Gray_WW Anycubic](https://www.amazon.it/dp/B07VXPGVNH?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - [Clear_WW Anycubic](https://www.amazon.it/dp/B07VXQ3C15?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - [SmokyBlack_WW Anycubic](https://www.amazon.it/dp/B0F83W8KFT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1).
 
-If one wish to use a different material, 
+If one wish to use a different material (or even a different color), one should start from a profile of a material which is as similar as possible to the new one, and adjust it properly acting on the following parameters:
+- __bottom layer exposure time__: if the test piece does not stick to the SBP, the time should be raised; if the test piece stick soo hard that the _auto-detach_ tool is not able to remove it, the time should be lowered.
+- __exposure time__: if the supports are not strong enough, the time should be raised; if the supports are "overcooked" (namely if they're too much tick and coated with an "dirty" surface) or if you find a thin layer of partially polymerized resin on the bottom of the vat, the time should be lowered.
+- __picture greyscale__: the exposure time for the supports will be intentionally set "too long" in order to make them more resistant. However, if the pixels curing the supports and those curing the part had the same brightness, the part would come out poorly, so a lower brightness is set for the pixels related to the part to be printed, while leaving the value 255 for the supports. This will be noticeable later, after the slicing, in the grayscale photographs.
+- __light-off-delay__: this is the time between the moment the plate descends and the moment the next image is projected. This is to ensure the resin is completely still, otherwise partially solidified resin may settle where it should not. If the piece has a "dirty" surface, the time should be raised. If the piece has a very clean surface, one can try lowering it.
 
+Main LLMs are quite capable of giving intelligent advice, but it must be specified that the printer is DLP, that it has a __tilting glass__ and that it has a VERY powerful projector, otherwise the answers will be based on "home" printers that have totally different profiles. You may also consider to give them these profile as starting point. 
 
+However, one must consider that it will probably need some (i.e. tens) of tests to make a new profile. In particular, pay attention to these things:
+- the pieces should be able to stick to the SBP
 
 # Notes about the _tag holder_
 As described in the printer manual, to use custom materials one havo to choose between using a _Custom_ cartridge, or using the _tag holder_.
