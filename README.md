@@ -12,7 +12,7 @@ Moreover, Everes printers are built to print only at pre-fixed layer thichnesses
 Everes printers come with a SBP which has holes. this implies that you can't place object right on the surface of the build plate, but you have to place it floating and place it NOT parallel to the SBP. 
 
 # Materials and profiles
-In the [__/profile__](./profile) folder one can find the profiles for the following water-washable standard resins:
+In the [__/profiles__](./profiles) folder one can find the profiles for the following water-washable standard resins:
 - [Gray_WW Anycubic](https://www.amazon.it/dp/B07VXPGVNH?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - [Clear_WW Anycubic](https://www.amazon.it/dp/B07VXQ3C15?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - [SmokyBlack_WW Anycubic](https://www.amazon.it/dp/B0F83W8KFT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1).
