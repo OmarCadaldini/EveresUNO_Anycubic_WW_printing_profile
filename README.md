@@ -16,6 +16,7 @@ Everes printers use a Smart Build Plate (SBP) that features holes. This implies 
 ---
 
 # Materials and profiles
+In the [**/support_center_settings**](./support_center_settings) folder, you can find the suggested CHITUBOX settings for raft, supports, and all related things.
 In the [**/profiles**](./profiles) folder, you can find the profiles for the following water-washable standard resins:
 - [Gray_WW Anycubic](https://www.amazon.it/dp/B07VXPGVNH?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - [Clear_WW Anycubic](https://www.amazon.it/dp/B07VXQ3C15?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
