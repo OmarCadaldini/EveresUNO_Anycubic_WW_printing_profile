@@ -22,7 +22,7 @@ In the [**/profiles**](./profiles) folder, you can find the profiles for the fol
 - [Gray_WW Anycubic](https://www.amazon.it/dp/B07VXPGVNH?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - [Clear_WW Anycubic](https://www.amazon.it/dp/B07VXQ3C15?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - [SmokyBlack_WW Anycubic](https://www.amazon.it/dp/B0F83W8KFT?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
-- [Green WW Anycubic] (https://www.amazon.it/dp/B0F83XYT7H?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+- [Green_WW Anycubic](https://www.amazon.it/dp/B0F83XYT7H?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 
 If you wish to use a different material (or even a different color), you should start with a profile for a material that is as close as possible to the new one, and then adjust it by tuning the following parameters:
 
